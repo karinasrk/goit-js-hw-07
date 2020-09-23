@@ -27,3 +27,5 @@ const createIngredientsList = products => {
 
 const elements = createIngredientsList(ingredients);
 ingredientsListEl.append(...elements);
+
+console.log(ingredientsListEl);
